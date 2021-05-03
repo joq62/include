@@ -1,0 +1,11 @@
+-record(app_spec,
+	{
+	 app_id,
+	 app_vsn,
+	 type,
+	 host,
+	 vm_id,
+	 vm_dir,
+	 cookie,
+	 services
+	}).
